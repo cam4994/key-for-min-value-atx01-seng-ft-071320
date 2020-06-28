@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   min_number = ""
-  min_key = ""
+  min_key = symbol.new
   name_hash.each do |item, value|
     if value < min_number.to_i 
       min_number = value 
